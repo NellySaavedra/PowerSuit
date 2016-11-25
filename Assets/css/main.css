@@ -1,0 +1,224 @@
+*{
+	font-family: 'Poppins', sans-serif !important;
+}
+h1, h2{
+	font-family: 'Poppins', sans-serif !important;
+}
+p{
+	font-size: 1.3em;
+}
+/*MENU*/
+.navbar-fixed-top .nav {
+  padding: 5px 0; 
+}
+.navbar-fixed-top .navbar-brand {
+	margin: 5px;
+	background-color: rgba(0, 0, 0, 0.48);
+	color: #FFFFFF;
+	border-top: 4px solid #FFEA0C;
+	border-bottom: 4px solid #FFEA0C;
+	border-radius: 7px;
+}
+.navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
+  background-color: transparent; 
+}
+.navbar-inverse {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav li > a{
+	margin: 0px 2px;
+	background-color: rgba(0, 0, 0, 0.48);
+	color: #FFFFFF;
+	border-top: 4px solid #FFEA0C;
+	border-bottom: 4px solid #FFEA0C;
+	border-radius: 7px;	
+}
+.navbar-inverse .navbar-nav li > a:hover, .navbar-inverse .navbar-nav li > a:focus {
+  background-color: transparent; 
+}
+/*Hamburguesa*/
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+  margin: 6px;
+	background-color: rgba(0, 0, 0, 0.48);
+	color: #FFFFFF;
+	border-top: 4px solid #FFEA0C;
+	border-bottom: 4px solid #FFEA0C;
+	border-radius: 7px;
+}
+.navbar-inverse .navbar-toggle:hover{
+	background-color: transparent;
+}
+.change-logo-2{
+    display: none;
+    width: 70%;
+    padding-left: 25%;
+}
+/*panel principal*/
+.bg-img-1{
+	background-image: url(../../img/bgImg/bgArbol2.jpg);
+  color: #FFF;
+}
+.encabezado {
+	padding: 10%;
+}
+.h1Span {
+	border-radius: 5px;
+}
+/*Panel de frase*/
+.bg-taza{
+	background-image: url(../../img/bgImg/bgTazaAzul.jpg);
+  color: #1b1e2f;
+  border-bottom: 4px solid #FFEA0C;
+}
+/*Panel de estadísticas*/
+.stadistics-img > img{
+	width: 8%;
+}
+/*Descrición del programa*/
+.bg-programa{
+	background-image: url(../../img/bgImg/bgLapiz.jpg);
+  color: #FFFFFF;
+}
+.button-detalles {
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #FFFFFF;
+	padding: 10px;
+}
+.flecha-detalles {
+	font-size: 1.3em;
+}
+#custom_carousel .item {
+  color: #FFFFFF;
+  background-color: transparent;
+  padding:20px 0;
+}
+#custom_carousel .controls{
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding:0;
+  margin:0;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+}
+#custom_carousel .controls li {
+  display: table-cell;
+  width: 1%;
+  max-width:90px;
+  border: .5px solid #FFFFFF;
+ }
+#custom_carousel .controls li > a:hover, #custom_carousel .controls li > a:active {
+	background-color: rgba(0, 0, 0, 0.48);
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: transparent;
+}
+.img-carousel{
+	margin: auto;
+	width: 70%;
+}
+.img-ico-carousel {
+	width: 50px;
+	height: auto;
+}
+.font-ico-carousel, .font-ico-carousel:hover{
+	color: #FFF;
+}
+/*Sección de blog*/
+.bg-blog{
+	background-image: url(../../img/bgImg/mujer4.jpg);
+	padding-top: 77px !important;
+}
+footer{
+	background-color: #FFEA0C;
+}
+.footer-ico{
+	width: 80px;
+	margin: 0% 2%;
+}
+/*clases-repetitivas*/
+.bg-style{
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.padding-box {
+	padding: 60px 0%;
+}
+.font-azul{
+	color: #006165;	
+}
+.font-purpura{
+	color: #580F58;
+}
+.font-amarilla{
+	color: #FFEA0C;
+}
+.hr-verde{
+	border: 2px solid #006165;
+}
+.hr-purpura {
+	border: 2px solid #580F58;
+}
+.hr-amarillo{
+	border: 1px solid #FFEA0C;
+}
+.border-right {
+	border-right: 2px solid #FFFFFF;
+}
+.border-left {
+	border-left: 2px solid #FFFFFF;
+}
+.font-Max{
+	font-size: 2em;
+}
+.comillas{
+	color: #ffea0c;
+}
+/*Backgrpund de colores*/
+.bg-rgba-gray{
+	background-color: rgba(0, 0, 0, 0.78);
+	color: #FFFFFF;
+}
+.bg-violeta{
+	background-color: #3D0B3C;
+	color: #FFFFFF;
+	border-top: 4px solid #FFEA0C;
+	border-bottom: 4px solid #FFEA0C;
+}
+.bg-verde{
+	background-color: #006165;
+}
+/*Recursos para responsive*/
+@media (min-width: 300px) and (max-width: 991px) {
+	.padding-lateral {
+		padding: 0% 7%;
+	}
+	.row{
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.img-carousel {
+		width: 30% !important;
+	}
+}
+@media (max-width: 379px) {
+	.font-ico-carousel{
+		font-size: 10px;
+		color: #FFF;
+		font-weight: bold;
+	}
+	p{
+		font-size: 1em;
+	}
+
+}

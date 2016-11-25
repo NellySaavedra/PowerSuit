@@ -1,0 +1,10 @@
+morados:
+3D0B3C
+580F58
+lila:
+C975ED
+azil:
+006165
+amarillo:FFEA0C
+rosa_D40F5A	
+verde: 5FAF08
