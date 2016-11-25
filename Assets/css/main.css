@@ -77,8 +77,9 @@ p{
 }
 /*Descrición del programa*/
 .bg-programa{
-	background-image: url(../../img/bgImg/bgLapiz.png);
+	background-image: url(../../img/bgImg/bgLapiz.PNG);
   color: #FFFFFF;
+  background-color: #ffb807;
 }
 .button-detalles {
 	border: 2px solid #FFFFFF;
